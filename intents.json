@@ -1,0 +1,300 @@
+{
+    "intents" :[
+        {
+            "tag" : "greeting",
+            "patterns":[
+                "Hello",
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there",
+                "Good day"
+            ],
+            "responses":[
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag":"goodbye",
+            "patterns":[
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "talk to you later"
+            ],
+            "responses":[
+                "See you later,thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon"
+            ]
+        },
+        {
+            "tag":"thanks",
+            "patterns":[
+                "Thanks",
+                "Thank you",
+                "thanks alot",
+                "Ok"
+            ],
+            "responses":[
+                "Anything else?",
+                "What else can I help you with?"
+            ]
+        },
+        {
+            "tag":"items",
+            "patterns":[
+                "which item do you have?",
+                "What kind of items are there?",
+                "What do you sell?"
+            ],
+            "responses":[
+                "we sell tea, juices and rolls",
+                "we have tea, juices and rolls "
+            ]
+
+        },
+        {
+            "tag": "tea",
+            "patterns":[
+                "What type of tea you sell?",
+                "How many types of tea do you sell",
+                "type of tea"
+            ],
+            "responses":[
+                "We sell four types of tea : ginger , lemon, masala tea, and iced tea",
+                "we sell ginger tea, masala tea, lemon tea and iced tea"
+                
+            ]
+        },
+        {
+            "tag": "icetea",
+            "patterns":[
+                "What type of ice tea you sell?",
+                "How many types of iced tea do you sell",
+                "type of ice tea"
+            ],
+            "responses":[
+                "We sell three types of ice tea :lemon, peach and apple ice tea",
+                "we sell lemon, peach and apple ice tea"
+            ]
+        },
+        {
+            "tag": "juice",
+            "patterns":[
+                "What type of juice you sell?",
+                "what do you sell in juices",
+                "what type of juices"
+            ],
+            "responses":[
+                "we sell lemon, mango, pineapple, watermelon, orange, apple, coconut, watermelon juices, mix juices",
+                "we sell all season , seasonal fruits juices and mix juices"
+            ]
+        },
+        {
+            "tag": "roll",
+            "patterns":[
+                "What type of roll you sell?",
+                "what do you sell in rolls",
+                "type of rolls"
+            ],
+            "responses":[
+                " we sell veg roll, panner roll, egg roll and chicken roll"
+            ]
+        },
+        {
+            "tag": "vegroll",
+            "patterns":[
+                "What is the price of veg roll?",
+                "what is the cost of veg roll?"
+
+            ],
+            "responses":[
+                "Price of a veg roll is 60 rs"
+
+            ]
+        },
+        {
+            "tag": "pannerroll",
+            "patterns":[
+                "What is the price of panner roll?",
+                "what is the cost of panner roll?"
+
+            ],
+            "responses":[
+                "Price of a panner roll is 100 rs"
+
+            ]
+        },
+        {
+            "tag": "eggroll",
+            "patterns":[
+                "What is the price of egg roll?",
+                "what is the cost of egg roll?"
+
+            ],
+            "responses":[
+                "Price of a egg roll is 80 rs"
+
+            ]
+        },
+        {
+            "tag": "chickenroll",
+            "patterns":[
+                "What is the price of chicken roll?",
+                "what is the cost of chicken roll?"
+
+            ],
+            "responses":[
+                "Price of a chicken roll is 110 rs"
+
+            ]
+        },
+        
+        {
+            "tag": "teaprice",
+            "patterns":[
+                "What is the price of gingertea?",
+                "what is the cost of ginger tea?",
+                "What is the price of lemontea?",
+                "what is the cost of lemon tea?",
+                "What is the price of masalatea?",
+                "what is the cost of masala tea?"
+
+            ],
+            "responses":[
+                "Price of a small cup of any tea is 20 rs and for a large cup it is 30 rs"
+
+            ]
+        },
+        {
+            "tag": "appleiceteaprice",
+            "patterns":[
+                "What is the price of apple ice tea?",
+                "what is the cost of apple ice tea?"
+
+            ],
+            "responses":[
+                "Price of a small cup of apple ice tea is 35 rs and for a large cup it is 60 rs"
+
+            ]
+        },
+        {
+            "tag": "lemoniceteaprice",
+            "patterns":[
+                "What is the price of lemon ice tea?",
+                "what is the cost of lemon ice tea?"
+
+            ],
+            "responses":[
+                "Price of a small cup of lemon ice tea is 30 rs and for a large cup it is 50 rs"
+
+            ]
+        },
+        {
+            "tag": "peachiceteaprice",
+            "patterns":[
+                "What is the price of peach ice tea?",
+                "what is the cost of peach ice tea?"
+
+            ],
+            "responses":[
+                "Price of a small cup of peach ice tea is 40 rs and for a large cup it is 60 rs"
+
+            ]
+        },
+        {
+            "tag": "waterjuiceprice",
+            "patterns":[
+                "What is the price of watermelon juice?",
+                "what is the cost of orange juice?",
+                "What is the price of coconut juice?",
+                "what is the cost of lemon juice?",
+                "what is the cost of sugarcane juice?"
+
+            ],
+            "responses":[
+                "Price of a small cup of juice is 35 rs and for a large cup it is 50 rs"
+
+            ]
+        },
+        {
+            "tag": "juiceprice",
+            "patterns":[
+                "What is the price of mango juice?",
+                "what is the cost of pineapple juice?",
+                "What is the price of apple juice?",
+                "what is the cost of mix juice?"
+
+            ],
+            "responses":[
+                "Price of a small cup of juice is 40 rs and for a large cup it is 60 rs"
+
+            ]
+        },
+        
+    
+        {
+            "tag":"payments",
+            "patterns":[
+                "Do you take credit cards?",
+                "Do you accept mastercard?",
+                "Can I pay with UPI?",
+                "Are you cash only?"
+            ],
+            "responses":[
+                "We accept VISA,UPI,Mastercard and cash",
+                "We accept most major credit cards and online payments"
+            ]
+        },
+        {
+            "tag":"delivery",
+            "patterns":[
+                "How long does a delivery take?",
+                "How long does shipping take?",
+                "When do I get my delivery?"
+            ],
+            "responses":[
+                "Delivery takes 2-4 hours",
+                "Shipping takes 2-4 hours"
+            ]
+        },
+        {
+            "tag":"location",
+            "patterns":[
+                "where are you located ?",
+                "where is your cafe?"
+            ],
+            "responses":[
+                "we are located at xyz. You can come visit us at anytime"
+            ]
+        },
+        {
+            "tag":"contact",
+            "patterns":[
+                "How do I contact you?",
+                "can you give the phone number"
+            ],
+            "responses":[
+                "You can call us on 00000000",
+                "you can order directly by calling on 00000000"
+            ]
+        },
+        {
+            "tag":"funny",
+            "patterns":[
+                "tell me a joke",
+                "tell me something funny",
+                "do you know a joke"
+            ],
+            "responses":[
+                "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+                "What did the buffalo say when his son left for college? Bison."
+
+            ]
+        }
+    ]
+}
